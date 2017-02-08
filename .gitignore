@@ -1,0 +1,11 @@
+# For PyDev (Eclipse)
+.project
+.pydevproject
+
+# Python bytecode and cache
+*.pyc
+**/__pycache__
+
+# Setuptools
+*.egg-info
+dist
