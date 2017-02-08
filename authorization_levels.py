@@ -24,3 +24,12 @@ LEVEL_DEFAULT = 0b0
 
 LEVEL_EMPLOYEE = 0b1
 LEVEL_EMPLOYEE_PLUS = 0b11
+
+
+def is_authorized(granted, needed):
+    """ Authorization function, checks whether the user's `granted` authz level
+    is sufficient for that `needed`.
+
+    :return bool: True is sufficient, False otherwise
+    """
+    return needed & granted == needed
