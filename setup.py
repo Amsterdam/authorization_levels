@@ -7,7 +7,7 @@ py_modules = ['authorization_levels']
 
 setup(
     name='datapunt-authorization-levels',
-    version='0.1.0.dev1',
+    version='0.1.0.dev2',
     description='Datapunt authorization levels',
     url='https://github.com/DatapuntAmsterdam/autorization_levels',
     author='Amsterdam Datapunt',
