@@ -6,4 +6,4 @@ Datapunt Authorization Levels
 
 ---------------------
 
-List with all supported authorization levels for Datapunt.
+List with all supported authorization levels and scopes for Datapunt.
