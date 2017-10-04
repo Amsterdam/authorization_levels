@@ -51,14 +51,16 @@ SCOPE_BRK_RW = 'BRK/RW'
 # described_by: 'https://www.amsterdam.nl/stelselpedia/wkpb-index/'
 SCOPE_WKPB_RBDU = 'WKPB/RBDU'
 
-
 # Handelsregister
 SCOPE_HR_R = 'HR/R'
 
 # Monumenten
-SCOPE_MON_RC = 'MON/RC'
+# Lezen beschrijvingen van Complexen
+SCOPE_MON_RBC = 'MON/RBC'
+SCOPE_MON_RDM = 'MON/RBM'
 
-SCOPES_EMPLOYEE = frozenset({SCOPE_HR_R, SCOPE_MON_RC, SCOPE_BRK_RS, SCOPE_BRK_RZR, SCOPE_TLLS_R, SCOPE_WKPB_RBDU})
+SCOPES_EMPLOYEE = frozenset({SCOPE_HR_R, SCOPE_MON_RBC, SCOPE_MON_RDM, SCOPE_BRK_RS, SCOPE_BRK_RZR,
+                             SCOPE_TLLS_R, SCOPE_WKPB_RBDU})
 SCOPES_EMPLOYEE_PLUS = frozenset({SCOPE_BRP_R, SCOPE_BRK_RSN}.union(SCOPES_EMPLOYEE))
 
 
