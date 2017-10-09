@@ -61,7 +61,7 @@ SCOPE_HR_R = 'HR/R'
 # Lezen beschrijvingen van Complexen
 SCOPE_MON_RBC = 'MON/RBC'
 # Lezen details van Monumenten
-SCOPE_MON_RDM = 'MON/RBM'
+SCOPE_MON_RDM = 'MON/RDM'
 
 SCOPES_EMPLOYEE = frozenset({SCOPE_HR_R, SCOPE_MON_RBC, SCOPE_MON_RDM, SCOPE_BRK_RS, SCOPE_BRK_RO,
                              SCOPE_TLLS_R, SCOPE_WKPB_RBDU})
