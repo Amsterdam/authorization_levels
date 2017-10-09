@@ -39,8 +39,11 @@ SCOPE_TLLS_R = 'TLLS/R'
 SCOPE_BRK_RS = 'BRK/RS'
 #  Bevragen alle Kadastrale Subjecten. Includes RS
 SCOPE_BRK_RSN = 'BRK/RSN'
-# Zakelijke rechten
+# Zakelijke rechten. Obsolete
 SCOPE_BRK_RZR = 'BRK/RZR'
+# Read Object
+SCOPE_BRK_RO = 'BRK/RO'
+
 # Aantekeningen
 SCOPE_BRK_RAT = 'BRK/RAT'
 # Lezen alle WKPB details van Kadastrale Objecten
@@ -57,9 +60,10 @@ SCOPE_HR_R = 'HR/R'
 # Monumenten
 # Lezen beschrijvingen van Complexen
 SCOPE_MON_RBC = 'MON/RBC'
+# Lezen details van Monumenten
 SCOPE_MON_RDM = 'MON/RBM'
 
-SCOPES_EMPLOYEE = frozenset({SCOPE_HR_R, SCOPE_MON_RBC, SCOPE_MON_RDM, SCOPE_BRK_RS, SCOPE_BRK_RZR,
+SCOPES_EMPLOYEE = frozenset({SCOPE_HR_R, SCOPE_MON_RBC, SCOPE_MON_RDM, SCOPE_BRK_RS, SCOPE_BRK_RO,
                              SCOPE_TLLS_R, SCOPE_WKPB_RBDU})
 SCOPES_EMPLOYEE_PLUS = frozenset({SCOPE_BRP_R, SCOPE_BRK_RSN}.union(SCOPES_EMPLOYEE))
 
