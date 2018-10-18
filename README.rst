@@ -1,3 +1,4 @@
+!!! OBSOLETE. Do not use for new projects !!!
 Datapunt Authorization Levels
 =============================
 
@@ -7,3 +8,4 @@ Datapunt Authorization Levels
 ---------------------
 
 List with all supported authorization levels and scopes for Datapunt.
+
